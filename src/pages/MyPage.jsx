@@ -17,7 +17,10 @@ const MyPage = () => {
           color: "white",
         }}
         onClick={function () {
-          setSearchParams();
+          setSearchParams({
+            name: name,
+            age: 40,
+          });
         }}
       >
         40살로 변경
