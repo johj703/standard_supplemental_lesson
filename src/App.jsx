@@ -22,7 +22,7 @@ const App = () => {
         <Route path="/myPage" element={<MyPage />} />
         <Route path="/myPage/:name" element={<MyPageDetail />} />
         <Route
-          path="/MyDetailDetailPage/:name"
+          path="/MyDetailDetailPage/:name/:age"
           element={<MyDetailDetailPage />}
         />
       </Routes>
