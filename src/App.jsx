@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Like from "./pages/Like";
 import MyPage from "./pages/MyPage";
 import MyPageDetail from "./pages/MyPageDetail";
+import MyDetailDetail from "./pages/MyDetailDetail";
 
 const App = () => {
   return (
