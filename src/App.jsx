@@ -10,6 +10,9 @@ const App = () => {
 
         {/* TDOO: Route를 이용해서 about, like, mypage 페이지 만들기 */}
         {/* 별도 컴포넌트 파일을 만들지 말고 App.jsx 안에서 바로 작성하기 */}
+        <Route path="/about" element="<About />" />
+        <Route path="/like" element="<Like />" />
+        <Route path="/mypage" element="<MyPage />" />
       </Routes>
     </BrowserRouter>
   );
