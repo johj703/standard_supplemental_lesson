@@ -4,6 +4,7 @@ import About from "./pages/About";
 import Like from "./pages/Like";
 import MyPage from "./pages/MyPage";
 import MyPageDetail from "./pages/MyPageDetail";
+import MyDetailDetailPage from "./pages/MyDetailDetailPage";
 
 const App = () => {
   return (
@@ -18,8 +19,12 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/like" element={<Like />} />
-        <Route path="/mypage" element={<MyPage />} />
-        <Route path="/mypage/:name" element={<MyPageDetail />} />
+        <Route path="/myPage" element={<MyPage />} />
+        <Route path="/myPage/:name" element={<MyPageDetail />} />
+        <Route
+          path="/MyDetailDetailPage/:name"
+          element={<MyDetailDetailPage />}
+        />
       </Routes>
     </BrowserRouter>
   );
